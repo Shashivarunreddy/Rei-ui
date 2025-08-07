@@ -33,6 +33,7 @@ Open your browser and go to: http://localhost:3000
 You should see the local documentation or component library preview running.
 
 ### Suggested Usage
+
 Browse through the components inside the /components directory.
 
 Use components in your own projects by copying or referencing them.
@@ -42,14 +43,17 @@ Customize styling using Tailwind utility classes.
 Add interactive animations via Framer Motion (motion.div, AnimatePresence, etc.).
 
 ### 🤝 Contributing
+
 We welcome contributions! If you'd like to add a new component, fix bugs, or improve documentation:
 
 Fork the repository
+
 Open a Pull Request and describe your changes.
 
 We’ll review it as soon as possible and provide feedback or merge!
 
-###🌐 Tech Stack
+### 🌐 Tech Stack
+
 Framework: Next.js
 
 Styling: Tailwind CSS
