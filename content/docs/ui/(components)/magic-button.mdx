@@ -1,0 +1,87 @@
+---
+title: MagicButton
+description: Performs a magical action or effect.
+preview: true
+links:
+  api: /docs/ui/magic-button#api-reference
+---
+
+<ComponentTabs name="magic-button-demo" />
+
+## Installation
+
+### CLI
+
+
+```package-install
+npx shadcn@latest add "https://eo-n.vercel.app/r/button"
+```
+
+### Manual
+
+<Steps>
+
+  <Step>
+    Copy and paste the following code into your project.
+
+    <ComponentSource name="button" />
+
+  </Step>
+  
+  <Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+## Usage
+
+Import all parts and piece them together.
+
+```tsx
+import { Button } from "@/components/ui/button";
+```
+
+```tsx
+<Button>Button</Button>
+```
+
+## Examples
+
+### Primary
+
+<ComponentTabs name="magic-button-demo" />
+
+### Secondary
+
+<ComponentTabs name="magic-button-secondary" />
+
+### Destructive
+
+<ComponentTabs name="magic-button-destructive" />
+
+### Ghost
+
+<ComponentTabs name="magic-button-ghost" />
+
+### Outline
+
+<ComponentTabs name="magic-button-outline" />
+
+### Link
+
+<ComponentTabs name="magic-button-link" />
+
+### Icon
+
+<ComponentTabs name="magic-button-icon" />
+
+### Loading
+
+<ComponentTabs name="magic-button-loading" />
+
+## API Reference
+
+### Root
+
+The main container component for handling magic button props.
+
+<AutoTypeTable path="./types/docs/magic-button.ts" name="RootProps" />

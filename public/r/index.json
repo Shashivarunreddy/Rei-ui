@@ -1,5 +1,15 @@
 [
   {
+    "name": "magic-button",
+    "type": "registry:ui",
+    "files": [
+      {
+        "path": "ui/magic-button.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "button",
     "type": "registry:ui",
     "files": [

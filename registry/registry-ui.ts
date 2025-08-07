@@ -2,6 +2,17 @@ import type { Registry } from "@/registry/schema";
 
 export const ui: Registry = [
   {
+    name: "magic-button",
+    type: "registry:ui",
+    files: [
+      {
+        path: "ui/magic-button.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+
+  {
     name: "button",
     type: "registry:ui",
     files: [

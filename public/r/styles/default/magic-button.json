@@ -1,0 +1,12 @@
+{
+  "name": "magic-button",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/magic-button.tsx",
+      "content": "import * as React from \"react\";\r\nimport { cn } from \"@/lib/utils\";\r\n\r\nexport interface MagicButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {\r\n  magic?: boolean;\r\n}\r\n\r\nexport function MagicButton({ magic, className, ...props }: MagicButtonProps) {\r\n  return (\r\n    <button className={cn(\"magic-btn-base-styles\", className)} {...props}>\r\n      {magic ? \"🪄\" : null}\r\n      {props.children}\r\n    </button>\r\n  );\r\n}\r\n",
+      "type": "registry:ui",
+      "target": ""
+    }
+  ]
+}
