@@ -22,30 +22,17 @@ git clone https://github.com/404cult/Rei-ui.git
 cd Rei-ui
 ```
 
-### 2. Install Dependencies
-Using npm:
+### 2. Install Dependencies and Start the server
+```bash
+pnpm install
+pnpm run dev
+```
 
-bash
-Copy
-Edit
-npm install
-Or using yarn:
-
-bash
-Copy
-Edit
-yarn install
-3. Run the Development Server
-bash
-Copy
-Edit
-npm run dev
-# or
-yarn dev
 Open your browser and go to: http://localhost:3000
+
 You should see the local documentation or component library preview running.
 
-🧪 Suggested Usage
+### Suggested Usage
 Browse through the components inside the /components directory.
 
 Use components in your own projects by copying or referencing them.
@@ -54,34 +41,15 @@ Customize styling using Tailwind utility classes.
 
 Add interactive animations via Framer Motion (motion.div, AnimatePresence, etc.).
 
-🤝 Contributing
+### 🤝 Contributing
 We welcome contributions! If you'd like to add a new component, fix bugs, or improve documentation:
 
 Fork the repository
-
-Create a new branch:
-
-bash
-Copy
-Edit
-git checkout -b feature/your-feature-name
-Make your changes and commit them:
-
-bash
-Copy
-Edit
-git commit -m "feat: Add [your feature]"
-Push your branch:
-
-bash
-Copy
-Edit
-git push origin feature/your-feature-name
 Open a Pull Request and describe your changes.
 
 We’ll review it as soon as possible and provide feedback or merge!
 
-🌐 Tech Stack
+###🌐 Tech Stack
 Framework: Next.js
 
 Styling: Tailwind CSS
