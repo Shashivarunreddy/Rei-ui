@@ -3,12 +3,12 @@ import type { Registry } from "@/registry/schema";
 export const examples: Registry = [
 
   {
-    name: "magic-button",
-    type: "registry:ui",
+    name: "magic-button-demo",
+    type: "registry:example",
     files: [
       {
-        path: "ui/magic-button.tsx",
-        type: "registry:ui",
+        path: "examples/magic-button-demo.tsx",
+        type: "registry:example",
       },
     ],
   },

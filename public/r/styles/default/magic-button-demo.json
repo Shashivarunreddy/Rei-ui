@@ -1,0 +1,12 @@
+{
+  "name": "magic-button-demo",
+  "type": "registry:example",
+  "files": [
+    {
+      "path": "examples/magic-button-demo.tsx",
+      "content": "import { MagicButton } from \"@/registry/default/ui/magic-button\";\r\n\r\n\r\nexport default function MagicButtonDemo() {\r\n  return <MagicButton magic>Click Me!</MagicButton>;\r\n}",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}

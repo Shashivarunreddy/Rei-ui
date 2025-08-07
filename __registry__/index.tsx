@@ -649,6 +649,22 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "magic-button-demo": {
+      name: "magic-button-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/examples/magic-button-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/magic-button-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "button-demo": {
       name: "button-demo",
       description: "",
