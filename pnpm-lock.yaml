@@ -114,6 +114,9 @@ importers:
         specifier: ^3.24.1
         version: 3.25.76
     devDependencies:
+      '@eslint/eslintrc':
+        specifier: ^3.3.1
+        version: 3.3.1
       '@fumadocs/cli':
         specifier: ^0.0.8
         version: 0.0.8
