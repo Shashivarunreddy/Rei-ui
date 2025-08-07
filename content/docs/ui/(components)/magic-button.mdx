@@ -13,6 +13,8 @@ links:
 ### CLI
 
 
+
+
 ```package-install
 npx shadcn@latest add "https://eo-n.vercel.app/r/button"
 ```
@@ -23,9 +25,7 @@ npx shadcn@latest add "https://eo-n.vercel.app/r/button"
 
   <Step>
     Copy and paste the following code into your project.
-
-    <ComponentSource name="button" />
-
+    <ComponentSource name="magic-button" />
   </Step>
   
   <Step>Update the import paths to match your project setup.</Step>
@@ -37,51 +37,19 @@ npx shadcn@latest add "https://eo-n.vercel.app/r/button"
 Import all parts and piece them together.
 
 ```tsx
-import { Button } from "@/components/ui/button";
+import { MagicButton } from "@/components/ui/magic-button";
 ```
 
 ```tsx
-<Button>Button</Button>
+<MagicButton magic>Magic Button</MagicButton>
 ```
 
 ## Examples
 
-### Primary
-
 <ComponentTabs name="magic-button-demo" />
-
-### Secondary
-
-<ComponentTabs name="magic-button-secondary" />
-
-### Destructive
-
-<ComponentTabs name="magic-button-destructive" />
-
-### Ghost
-
-<ComponentTabs name="magic-button-ghost" />
-
-### Outline
-
-<ComponentTabs name="magic-button-outline" />
-
-### Link
-
-<ComponentTabs name="magic-button-link" />
-
-### Icon
-
-<ComponentTabs name="magic-button-icon" />
-
-### Loading
-
-<ComponentTabs name="magic-button-loading" />
 
 ## API Reference
 
 ### Root
-
-The main container component for handling magic button props.
 
 <AutoTypeTable path="./types/docs/magic-button.ts" name="RootProps" />

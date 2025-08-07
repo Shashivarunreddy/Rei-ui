@@ -1,4 +1,4 @@
-import { getHighlighter } from "@shikijs/compat";
+import { createHighlighter }  from "shiki";
 import { rehypeCode, remarkGfm } from "fumadocs-core/mdx-plugins";
 import { fileGenerator, remarkDocGen, remarkInstall } from "fumadocs-docgen";
 import {
@@ -28,9 +28,10 @@ export default defineConfig({
             dark: "github-dark",
             light: "github-light",
           },
-          getHighlighter: () =>
-            getHighlighter({
+          getHighlighter: async () =>
+             await createHighlighter({
               themes: ["github-dark", "github-light"],
+              langs: ["javascript", "typescript", "json", "bash", "tsx", "jsx", "css"],  
             }),
           onVisitLine(node: { children: { length: number } }) {
             // Prevent lines from collapsing in `display: grid` mode, and allow empty
