@@ -42,12 +42,12 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "aeonz",
-      url: "https://christian-aeonzz.vercel.app/",
+      name: "404cult",
+      url: "https://rei-ui-lake.vercel.app/",
     },
   ],
-  creator: "aeonz",
-  publisher: "aeonz",
+  creator: "404cult",
+  publisher: "404cult",
   robots: {
     index: true,
     follow: true,
