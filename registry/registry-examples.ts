@@ -293,6 +293,18 @@ export const examples: Registry = [
       },
     ],
   },
+
+  {
+    name: "Hoveraccordion-demo",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/Hoveraccordion-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+
   {
     name: "accordion-disabled",
     type: "registry:example",

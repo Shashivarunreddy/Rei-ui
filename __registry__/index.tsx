@@ -133,6 +133,22 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "Hoveraccordion": {
+      name: "Hoveraccordion",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/ui/Hoveraccordion.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/Hoveraccordion.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "checkbox": {
       name: "checkbox",
       description: "",
@@ -1108,6 +1124,22 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/default/examples/accordion-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "Hoveraccordion-demo": {
+      name: "Hoveraccordion-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/examples/Hoveraccordion-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/Hoveraccordion-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",

@@ -1,0 +1,12 @@
+{
+  "name": "Hoveraccordion-demo",
+  "type": "registry:example",
+  "files": [
+    {
+      "path": "examples/Hoveraccordion-demo.tsx",
+      "content": "\"use client\";\r\n\r\nimport { HoverAccordion } from \"@/registry/default/ui/Hoveraccordion\";\r\n\r\n\r\nconst faqData = [\r\n  {\r\n    question: \"Is it accessible?\",\r\n    answer:\r\n      \"Yes. It adheres to the WAI-ARIA design pattern and is fully keyboard navigable. The component is built with proper focus management and ARIA attributes for screen reader compatibility.\",\r\n  },\r\n  {\r\n    question: \"Can I use it with Tailwind CSS?\",\r\n    answer:\r\n      \"Absolutely. This component is styled with Tailwind classes and can be customized using your own Tailwind configuration.\",\r\n  },\r\n  {\r\n    question: \"Does it support animations?\",\r\n    answer:\r\n      \"Yes, it comes with smooth open/close animations by default, and you can tweak them using utility classes or your own CSS transitions.\",\r\n  },\r\n  {\r\n    question: \"Is it mobile-friendly?\",\r\n    answer:\r\n      \"Definitely. The component is responsive by default and works seamlessly across devices, including mobile, tablet, and desktop.\",\r\n  },\r\n];\r\n\r\nexport default function FaqAccordion() {\r\n  return (\r\n    <div className=\"w-full max-w-2xl mx-auto px-4 sm:px-6 lg:px-8\">\r\n      <HoverAccordion items={faqData} />\r\n    </div>\r\n  );\r\n}\r\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}

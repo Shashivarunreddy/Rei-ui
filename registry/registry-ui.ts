@@ -76,6 +76,7 @@ export const ui: Registry = [
       },
     ],
   },
+
   {
     name: "accordion",
     type: "registry:ui",
@@ -87,6 +88,19 @@ export const ui: Registry = [
       },
     ],
   },
+
+  {
+    name: "Hoveraccordion",
+    type: "registry:ui",
+    dependencies: ["@base-ui-components/react"],
+    files: [
+      {
+        path: "ui/Hoveraccordion.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+
   {
     name: "checkbox",
     type: "registry:ui",
