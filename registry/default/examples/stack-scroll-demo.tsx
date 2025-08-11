@@ -57,7 +57,7 @@ const IMAGE_LINKS = [
   // ...add more if needed
 ];
 
-export function ScrollBasedVelocityImagesDemo() {
+export default function ScrollBasedVelocityImagesDemo() {
   const rowCount = useResponsiveRowCount(); // 2 or 3 rows
 
   // Split the images into rowCount segments
