@@ -1,6 +1,19 @@
 import type { Registry } from "@/registry/schema";
 
 export const ui: Registry = [
+  
+  {
+    name: "stack-scroll",
+    type: "registry:ui",
+    dependencies: ["motion","framer-motion"],
+    files: [
+      {
+        path: "ui/stack-scroll.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  
   {
     name: "magic-button",
     type: "registry:ui",

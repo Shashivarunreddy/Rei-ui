@@ -5,6 +5,22 @@ import * as React from "react"
 
 export const Index: Record<string, any> = {
   "default": {
+    "stack-scroll": {
+      name: "stack-scroll",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/ui/stack-scroll.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/stack-scroll.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "magic-button": {
       name: "magic-button",
       description: "",
@@ -660,6 +676,22 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/default/lib/utils.ts")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "stack-scroll-demo": {
+      name: "stack-scroll-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/examples/stack-scroll-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/stack-scroll-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",

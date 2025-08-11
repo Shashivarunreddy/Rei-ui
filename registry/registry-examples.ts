@@ -3,6 +3,17 @@ import type { Registry } from "@/registry/schema";
 export const examples: Registry = [
 
   {
+    name: "stack-scroll-demo",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/stack-scroll-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+
+  {
     name: "magic-button-demo",
     type: "registry:example",
     files: [
