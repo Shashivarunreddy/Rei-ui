@@ -5,6 +5,22 @@ import * as React from "react"
 
 export const Index: Record<string, any> = {
   "default": {
+    "loader": {
+      name: "loader",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/ui/loader.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/loader.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "stack-scroll": {
       name: "stack-scroll",
       description: "",
@@ -676,6 +692,38 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/default/lib/utils.ts")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "textloaderdemo": {
+      name: "textloaderdemo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/examples/textloaderdemo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/textloaderdemo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "loaderdemo": {
+      name: "loaderdemo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/examples/loaderdemo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/loaderdemo.tsx")),
       source: "",
       category: "",
       subcategory: "",

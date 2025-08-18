@@ -1,0 +1,12 @@
+{
+  "name": "loaderdemo",
+  "type": "registry:example",
+  "files": [
+    {
+      "path": "examples/loaderdemo.tsx",
+      "content": "\"use client\";\r\n\r\nimport { Loader } from \"@/registry/default/ui/loader\";\r\n\r\nexport default function LoaderDemo() {\r\n  return <Loader />;\r\n}\r\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}

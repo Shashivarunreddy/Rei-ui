@@ -2,6 +2,29 @@ import type { Registry } from "@/registry/schema";
 
 export const examples: Registry = [
 
+
+  {
+    name: "textloaderdemo",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/textloaderdemo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+
+  {
+    name: "loaderdemo",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/loaderdemo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+
   {
     name: "stack-scroll-demo",
     type: "registry:example",

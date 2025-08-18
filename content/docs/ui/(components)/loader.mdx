@@ -1,0 +1,54 @@
+---
+title: Loader
+description: Different types of loaders preview.
+
+---
+
+<ComponentTabs name="loaderdemo" />
+
+## Installation
+
+### CLI
+
+```package-install
+npx shadcn@latest add "https://rei-ui-lake.vercel.app/r/loader"
+```
+
+### Manual
+
+<Steps>
+
+  <Step>
+    Copy and paste the following code into your project.
+
+    <ComponentSource name="loader" />
+
+  </Step>
+  
+  <Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+## Usage
+
+Import all parts and piece them together.
+
+```tsx
+
+"use client";
+import { Loader } from "@/components/ui/loader";
+
+  return <Loader />;
+
+```
+
+## Examples
+
+### Loader
+
+<ComponentTabs name="loaderdemo" />
+
+### TextLoader
+
+<ComponentTabs name="textloaderdemo" />
+

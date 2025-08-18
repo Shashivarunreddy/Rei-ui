@@ -1,0 +1,12 @@
+{
+  "name": "textloaderdemo",
+  "type": "registry:example",
+  "files": [
+    {
+      "path": "examples/textloaderdemo.tsx",
+      "content": "\"use client\";\r\n\r\nimport { TextLoader } from \"@/registry/default/ui/loader\";\r\n\r\nexport default function TextLoaderDemo() {\r\n  return <TextLoader text=\"Loading...\" />;\r\n}\r\n\r\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}

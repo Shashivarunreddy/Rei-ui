@@ -3,6 +3,19 @@ import type { Registry } from "@/registry/schema";
 export const ui: Registry = [
   
   {
+    name: "loader",
+    type: "registry:ui",
+    dependencies: ["motion","framer-motion"],
+    files: [
+      {
+        path: "ui/loader.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+
+
+  {
     name: "stack-scroll",
     type: "registry:ui",
     dependencies: ["motion","framer-motion"],

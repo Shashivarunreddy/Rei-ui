@@ -1,0 +1,16 @@
+{
+  "name": "loader",
+  "type": "registry:ui",
+  "dependencies": [
+    "motion",
+    "framer-motion"
+  ],
+  "files": [
+    {
+      "path": "ui/loader.tsx",
+      "content": "\"use client\";\r\nimport { motion } from \"motion/react\";\r\nimport { easeInOut } from \"motion\";\r\nimport React from \"react\";\r\n\r\nexport const Loader = () => {\r\n  const transition = (x: number) => {\r\n    return {\r\n      duration: 1,\r\n      repeat: Infinity,\r\n      repeatType: \"loop\" as const,\r\n      delay: x * 0.2,\r\n      ease: easeInOut,\r\n    };\r\n  };\r\n  return (\r\n    <div className=\"flex items-center gap-2\">\r\n      <motion.div\r\n        initial={{\r\n          y: 0,\r\n        }}\r\n        animate={{\r\n          y: [0, 10, 0],\r\n        }}\r\n        transition={transition(0)}\r\n        className=\"h-4 w-4 rounded-full border border-neutral-300 bg-gradient-to-b from-neutral-400 to-neutral-300\"\r\n      />\r\n      <motion.div\r\n        initial={{\r\n          y: 0,\r\n        }}\r\n        animate={{\r\n          y: [0, 10, 0],\r\n        }}\r\n        transition={transition(1)}\r\n        className=\"h-4 w-4 rounded-full border border-neutral-300 bg-gradient-to-b from-neutral-400 to-neutral-300\"\r\n      />\r\n      <motion.div\r\n        initial={{\r\n          y: 0,\r\n        }}\r\n        animate={{\r\n          y: [0, 10, 0],\r\n        }}\r\n        transition={transition(2)}\r\n        className=\"h-4 w-4 rounded-full border border-neutral-300 bg-gradient-to-b from-neutral-400 to-neutral-300\"\r\n      />\r\n    </div>\r\n  );\r\n};\r\n\r\n\r\nexport const TextLoader = ({ text }: { text: string }) => {\r\n  return (\r\n    <div className=\"font-sans font-bold [--shadow-color:var(--color-neutral-500)] dark:[--shadow-color:var(--color-neutral-100)]\">\r\n      {text.split(\"\").map((char, i) => (\r\n        <motion.span\r\n          key={i}\r\n          className=\"inline-block\"\r\n          initial={{ scale: 1, opacity: 0.5 }}\r\n          animate={{\r\n            scale: [1, 1.1, 1],\r\n            textShadow: [\r\n              \"0 0 0 var(--shadow-color)\",\r\n              \"0 0 1px var(--shadow-color)\",\r\n              \"0 0 0 var(--shadow-color)\",\r\n            ],\r\n            opacity: [0.5, 1, 0.5],\r\n          }}\r\n          transition={{\r\n            duration: 0.5,\r\n            repeat: Infinity,\r\n            repeatType: \"loop\",\r\n            delay: i * 0.05,\r\n            ease: \"easeInOut\",\r\n            repeatDelay: 2,\r\n          }}\r\n        >\r\n          {char === \" \" ? \"\\u00A0\" : char}\r\n        </motion.span>\r\n      ))}\r\n    </div>\r\n  );\r\n};",
+      "type": "registry:ui",
+      "target": ""
+    }
+  ]
+}
