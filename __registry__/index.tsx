@@ -697,6 +697,22 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "collisionloaderdemo": {
+      name: "collisionloaderdemo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/examples/collisionloaderdemo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/examples/collisionloaderdemo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "textloaderdemo": {
       name: "textloaderdemo",
       description: "",

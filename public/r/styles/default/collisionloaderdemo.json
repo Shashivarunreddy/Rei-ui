@@ -1,0 +1,12 @@
+{
+  "name": "collisionloaderdemo",
+  "type": "registry:example",
+  "files": [
+    {
+      "path": "examples/collisionloaderdemo.tsx",
+      "content": "\"use client\";\r\n\r\nimport { CollisionLoader } from \"@/registry/default/ui/loader\";\r\n\r\nexport default function LoaderDemo() {\r\n  return <CollisionLoader />;\r\n}",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}
