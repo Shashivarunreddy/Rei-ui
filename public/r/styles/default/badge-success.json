@@ -1,0 +1,12 @@
+{
+  "name": "badge-success",
+  "type": "registry:example",
+  "files": [
+    {
+      "path": "examples/badge-success.tsx",
+      "content": "import { Badge } from \"@/registry/default/ui/badge\";\r\n\r\nexport default function BadgeSuccess() {\r\n  return <Badge variant=\"success\">Success</Badge>;\r\n}",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}
