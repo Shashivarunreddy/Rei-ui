@@ -2,6 +2,48 @@ import type { Registry } from "@/registry/schema";
 
 export const examples: Registry = [
 
+  {
+    name: "badge-info",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/badge-info.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+   {
+    name: "badge-success",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/badge-success.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+   {
+    name: "badge-gradient",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/badge-gradient.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+   {
+    name: "badge-warning",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/badge-warning.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+
+
    {
     name: "collisionloaderdemo",
     type: "registry:example",

@@ -1,0 +1,12 @@
+{
+  "name": "badge-warning",
+  "type": "registry:example",
+  "files": [
+    {
+      "path": "examples/badge-warning.tsx",
+      "content": "import { Badge } from \"@/registry/default/ui/badge\";\r\n\r\nexport default function BadgeWarning() {\r\n  return <Badge variant=\"warning\">Warning</Badge>;\r\n}",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}
